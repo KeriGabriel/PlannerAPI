@@ -14,6 +14,6 @@ namespace PlannerAPI.Data
         {
         }
 
-        public DbSet<PlannerAPI.Model.Memo>? Memo { get; set; }
+        public DbSet<PlannerAPI.Model.Memo> Memo { get; set; }
     }
 }
